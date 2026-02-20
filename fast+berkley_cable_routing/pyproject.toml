@@ -1,0 +1,12 @@
+[project]
+name = "fast-berkley-cable-routing"
+version = "0.1.0"
+description = "FAST+ generalization experiment on berkeley_cable_routing"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "numpy>=1.26,<3.0",
+  "scipy>=1.10,<2.0",
+  "transformers==4.40.1",
+  "openvla @ git+https://github.com/openvla/openvla",
+]
